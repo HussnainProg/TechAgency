@@ -1,0 +1,315 @@
+/* Global Classes */
+.padding-global {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  animation:transitionIn 1s ease-in-out;
+}
+@keyframes transitionIn {
+  from{
+    opacity:0;
+    transform: rotateX(-10deg);
+
+
+
+  }
+  to{
+    opacity: 1;
+    transform:rotateX(0);
+
+  }
+  
+}
+header{
+  background-color: #2d3436;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.scrolled {
+  background-color: #2d343692;
+}
+.navbar {
+  color: white;
+  border-bottom: 1px solid black;
+  /* padding: 0.6rem 0; */
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: orangered;
+}
+.navbar a {
+  color: white;
+  font-size: 1.1rem;
+  transition: all 1s ease;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-nav li {
+  margin: 0 1rem;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.dropdown-menu {
+  background-color: #2d3436b8;
+  color: white;
+}
+
+/* Styling hero section*/
+#section-hero {
+  background-image: url("../images/office-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height:50rem;
+  overflow-x: hidden;
+}
+.hero-content-wrapper {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 3rem 1.5rem;
+  color: black;
+  background-color: rgba(23, 21, 21, 0.555);
+  border-radius: 10px;
+}
+.hero-content-wrapper h1 {
+  color:orangered;
+  font-weight: bolder;
+}
+.hero-content-wrapper p {
+  color: rgba(255, 255, 255, 0.735);
+  font-size: large;
+  line-height: 1.6rem;
+}
+.hero-content-wrapper .btn {
+  border: 1px solid orangered;
+  color: orangered;
+  transition: all 1s ease-in-out;
+}
+.hero-content-wrapper .btn:hover {
+  background-color: rgba(255, 68, 0, 0.766);
+  color: white;
+}
+
+/* styling of Who */
+#who {
+
+  background-color: whitesmoke;
+
+}
+#who #first-row p{
+  /* border: 1px solid red; */
+  font-size:1.3rem;
+  text-align: justify;
+
+}
+#who #who-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#who h2,h3{
+  font-weight: bold;
+  color:#F97F51;
+}
+#sideImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+#who h3 {
+  text-align: center;
+}
+#who .card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#who .card {
+  border-radius: 10px;
+  background-color: inherit;
+  box-shadow: 0 2px 10px 2px silver;
+  text-align: center;
+  padding: 10px;
+}
+#who h2,
+h3 {
+  font-weight: bold;
+}
+#who .card h4 {
+  font-weight: 600;
+}
+/* Services section */
+#services {
+}
+#services .card {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px 2px silver;
+  transition: all 0.5s;
+  /* background-color:crimson; */
+  /* height: 30rem; */
+}
+#services .card img {
+  width: 100%;
+  height: 220px;
+  object-fit: fill;
+}
+#services .card h5 {
+  font-weight: 600;
+  font-size: x-large;
+  color: #2c3a47;
+}
+#services .card p {
+  color: rgba(0, 0, 0, 0.681);
+  text-align: justify;
+}
+
+#services .card:hover {
+  transform: translateY(-10px);
+}
+
+/* styling of Happ client section */
+#Happy{
+  /* background-color: ; */
+  background-image: linear-gradient(to bottom,whitesmoke,#22282992);
+}
+#Happy .row{
+  /* border: 1px solid red; */
+  /* display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly; */
+}
+#Happy .happy-card{
+  /* border: 1px solid pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Happy i{
+  font-size: 3rem;
+
+}
+#Happy h4{
+  color:slategray;
+  font-size:x-large;
+  margin-top:5px;
+
+}
+#Happy p{
+  font-size: 2rem;
+}
+
+
+
+/* styling of reviews section */
+#grow{
+  color: white;
+  background-color: #2d3436;
+}
+.h-line{
+  background-color:white;
+  height: 1px;
+  width: 100%;
+}
+#grow .grow-card-wrapper{
+  /* border: 1px solid crimson; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#grow .grow-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: auto;
+  margin-bottom: 1rem;
+  /* border: 1px solid black; */
+}
+
+#grow .grow-card img{
+  width: 50%;
+  height: 100%;
+  object-fit: fill;
+
+}
+#grow .grow-card h4{
+  margin-top: 10px;
+}
+
+
+
+
+/* Media Queries :) */
+
+/* Media Query for lg-break point */
+@media screen and (max-width:992px){
+  #reviews .grow-card{
+    max-width: 15rem;
+  
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  #services .card {
+    /* border: 1px solid red; */
+    /* height:50%; */
+  }
+  #services .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 576px) {
+  .padding-global {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+  #services .card {
+    border: 1px solid red;
+    /* width: 80%; */
+    /* height:80/%; */
+  }
+  #services .card img {
+    width: 100%;
+    height: 200px;
+    object-fit:fill;
+  }
+  #services .card h5 {
+    font-weight:500;
+    font-size: x-large;
+    color: #2c3a47;
+  }
+  #services .card p {
+    color: rgba(0, 0, 0, 0.681);
+    /* text-align: justify; */
+  }
+  
+  #reviews .grow-card{
+    margin-bottom: 1.5rem;
+  }
+}
