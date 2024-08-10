@@ -1,0 +1,148 @@
+
+/* styling of haeader section */
+header{
+    background-color: #2d3436;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.scrolled {
+    background-color: #2d343692;
+}
+.navbar {
+    color: white;
+    border-bottom: 1px solid black;
+  
+}
+  
+.navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: orangered;
+}
+.navbar a {
+    color: white;
+    font-size: 1.1rem;
+    transition: all 1s ease;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav li {
+    margin: 0 1rem;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.dropdown-menu {
+    background-color: #2d3436b8;
+    color: white;
+}
+
+/* Styling of contact section */
+#contact #form-wrapper{
+  
+    padding-left: 3rem;
+  }
+#contact form label{
+
+  position: relative;
+  top: 18px;
+  left: 20px;
+  background-color: white;
+  padding: 0 3px;
+}
+#contact form label {
+  color: rgba(0, 0, 0, 0.634);
+}
+#contact form input,textarea{
+  
+  height: 2.5rem;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  
+}
+#contact form input:focus,#contact form textarea:focus{
+  border: 1px solid black;
+}
+#contact form textarea{
+  height: 5rem;
+} 
+#contact form .form-btn{
+  margin-right: 10px;
+  color: white;  
+  margin-top: 2rem;
+  border:none;
+  background-color:black;
+  box-shadow: 0 3px 5px 0px rgb(106, 100, 100);
+}
+#contact form .form-btn:hover{
+  background-color: orangered;
+
+  
+}
+
+#contact #contact-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* Styling of Footer section */
+#foot{
+    background-color: #2d3436;
+    border: 1px solid black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.896));
+    color: aliceblue;
+}
+#foot h3{
+    color:darkgrey;
+    font-weight:none;
+}
+#foot #icon-wrapper i{
+    font-size: 2rem;
+    color: white;
+    transition: all 1s ease-in-out;
+    padding-right: 10px;
+}
+#foot #icon-wrapper i:hover{
+    color:black;
+}
+#foot .commonLinks li {
+    color:#F97F51;
+    list-style-type: none;
+    padding-bottom: 5px;
+    
+  
+}
+#foot ul{
+    position: relative;
+    left: 3%;
+  
+}
+#foot .commonLinks li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+  
+  
+@media screen and (max-width:768px){
+    #foot #icon-wrapper i{
+    padding: 0 1rem;
+  }
+  #foot .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width:576px){
+    #contact #form-wrapper{
+
+        padding-left: 1rem;
+    }
+}
