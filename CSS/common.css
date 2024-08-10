@@ -1,5 +1,11 @@
+/* global clases */
 
+.padding-global {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
 /* styling of haeader section */
+
 header{
     background-color: #2d3436;
     position: sticky;
