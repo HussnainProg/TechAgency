@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#hero{
+    background-image: url('../images/SEO-banner.avif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow-x: hidden;
+    background-position: center;
+    /* max-height: 40rem; */
+    /* min-width: 55rem; */
+    color: antiquewhite;
+    background-attachment:fixed;
+}
+.bg-color{
+    background-color:rgba(0, 0, 0, 0.646);
+}
+
+@media screen and (max-width:576px){
+    /* #hero{
+        background-size:;
+        width: 100%;
+        height: 100%;
+    } */
+}
