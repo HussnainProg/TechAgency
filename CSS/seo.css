@@ -4,19 +4,61 @@
     box-sizing: border-box;
 }
 #hero{
-    background-image: url('../images/SEO-banner.avif');
+    /* background-image: url('../images/SEO-banner.avif'); */
+    /* background-image: url('../images/seo-bg-2.webp'); */
+    background-image: url('../images/black-BG');
     background-repeat: no-repeat;
     background-size:cover;
     overflow-x: hidden;
-    background-position: center;
-    /* max-height: 40rem; */
-    /* min-width: 55rem; */
     color: antiquewhite;
     background-attachment:fixed;
+    background-position: center;
 }
 .bg-color{
-    background-color:rgba(0, 0, 0, 0.646);
+    background-color:rgba(0, 0, 0, 0.537);
+
 }
+#hero h1{
+    text-align: right;
+    font-size: 5rem;
+    font-weight: bolder;
+    color:white;
+    /* z-index: 1; */
+}
+#hero #contact{
+    background-color: orangered;
+    color: aliceblue;
+    transition: all 0.7s ease-in;
+}
+#hero #contact:hover{
+    background-color: white;
+    color:orangered;
+}
+#services{
+    background-color:beige;
+}
+#services .line{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
+#services h2{
+    color:orangered;
+    font-weight:600;
+    font-size:3rem;
+}
+#services h4{
+    color:#2d3436;
+    /* font-size: larger; */
+    font-weight:600;
+}
+#services p{
+    text-align:justify;
+    font-size: large;
+    /* color: #2d3436b3; */
+}
+
+
 
 @media screen and (max-width:576px){
     /* #hero{
